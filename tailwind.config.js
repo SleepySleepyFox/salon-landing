@@ -9,6 +9,9 @@ export default {
       backgroundColor:{
         'secondary': '#FBB034'
       },
+      textColor:{
+        'secondary': '#FBB034'
+      },
       backgroundImage: {
         'hero': "url('./src/assets/jason-dent-itA0ybdIDTs-unsplash.jpg')",
       }

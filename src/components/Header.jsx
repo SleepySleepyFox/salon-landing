@@ -6,7 +6,7 @@ export default function Header() {
     const [sideMenu, setSideMenu] = useState(false)
 
   return (
-    <div>
+    <div className='fixed md:top-0 w-full'>
         <header className='flex justify-between p-10 items-center'>
             <div>
                 <img src={logo} alt="" />
@@ -28,7 +28,7 @@ export default function Header() {
                 <img className='md:hidden h-6 w-6' src={menu} alt="" onClick={() => setSideMenu(e => !e)}/>
             </div>
         </header>
-             <div className={`absolute right-0 top-0 bg-white h-full w-[45%] ease-in-out duration-300 ${sideMenu ? "translate-x-0" : "translate-x-full"} md:hidden`}>
+             <div className={`absolute right-0 top-0 bg-white h-screen w-[45%] ease-in-out duration-300 ${sideMenu ? "translate-x-0" : "translate-x-full"} md:hidden`}>
                  {sideMenu && <div>
                     <div onClick={() => setSideMenu(e => !e)}>
                         <div className='font-bold p-3'>X</div>
