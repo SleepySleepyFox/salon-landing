@@ -6,7 +6,7 @@ export default function Header() {
     const [sideMenu, setSideMenu] = useState(false)
 
   return (
-    <div className='fixed md:top-0 w-full'>
+    <div className='absolute md:top-0 w-full'>
         <header className='flex justify-between p-10 items-center'>
             <div>
                 <img src={logo} alt="" />

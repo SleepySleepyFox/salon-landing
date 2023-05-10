@@ -4,7 +4,7 @@ import hero from '../assets/hero.png'
 export default function Hero() {
   return (
     // md:absolute md:top-0
-    <div className='flex justify-between w-full h-full'> 
+    <div className='flex justify-between w-full h-full bg-hero'> 
         <div className='flex flex-col justify-center items-center p-2 self-center'>
             <h3 className='text-secondary text-center'>Welcome To Choppers</h3>
             <h1 className='text-white text-center'>Best Hair Salon For A Professional Look</h1>
@@ -17,8 +17,8 @@ export default function Hero() {
             
         </div>
 
-        <div className='hidden items-end md:flex'>
-            <img src={hero} alt="" />
+        <div className='hidden md:flex md:flex-shrink-0 h-[65%] self-end'>
+            <img src={hero} alt="" className='justify-start'/>
         </div>
     </div>
   )
