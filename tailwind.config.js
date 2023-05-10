@@ -14,6 +14,7 @@ export default {
       },
       backgroundImage: {
         'hero': "url('./src/assets/jason-dent-itA0ybdIDTs-unsplash.jpg')",
+        'bookbg': "url('./src/assets/BookSection_bg.png')"
       }
     },
   },

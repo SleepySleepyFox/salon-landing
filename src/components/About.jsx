@@ -6,7 +6,7 @@ import about_3 from '../assets/about_3.png'
 export default function About() {
   return (
     <div className='container md:flex md:justify-between'>
-      <div className='grid grid-cols-12 grid-rows-1 p-6 '>
+      <div className='grid grid-cols-12 grid-rows-1 p-6 w-full'>
         <img src={about_1} alt="" className='col-start-1 col-end-6 row-start-1'/>
         <img src={about_2} alt="" className='col-start-6 col-end-12 row-start-1 border-8 border-white'/>
         <img src={about_3} alt="" className='col-start-3 col-end-10 row-end-2 mt-44 border-8 border-white'/>
@@ -16,7 +16,7 @@ export default function About() {
           <h3 className='text-secondary font mt-2'>About Us</h3>
           <h1 className='text-black font-black md:text-4xl'> Best Haircut Salon For Men</h1>
           <p className=' mt-2'>Let your hairdressers do their amazing job. Trim the hair to get your desired look. Book appointment with us for your favorite hair Styles!</p>
-          <button className='bg-secondary p-2 font-bold px-4 mt-2'>Read More</button>
+          <button className='bg-secondary p-2 px-6 mt-2'>Read More</button>
         </div>
     </div>
   )
