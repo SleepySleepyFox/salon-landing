@@ -17,8 +17,8 @@ export default function Hero() {
             
         </div>
 
-        <div className='hidden md:flex md:flex-shrink-0 h-[65%] self-end'>
-            <img src={hero} alt="" className='justify-start'/>
+        <div className='hidden md:flex aspect-auto max-h-[65%] min-h-0 self-end'>
+            <img src={hero} alt="" className='flex-shrink-0'/>
         </div>
     </div>
   )

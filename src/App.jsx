@@ -7,7 +7,7 @@ import WorkingDays from './components/WorkingDays'
 
 export default function App() {
   return (
-      <div className='h-screen flex-1'>
+      <div className='flex-1'>
         <div className="hero h-screen">
           <Header />
           <Hero/>
