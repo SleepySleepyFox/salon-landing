@@ -21,9 +21,9 @@ export default function App() {
         <BookAppointment/>
       </div>
 
-      {/* <div className='h-screen bg-white'>
+      <div className='h-screen bg-white'>
         <WorkingDays/>
-      </div> */}
+      </div>
       </div>
   )
 }
