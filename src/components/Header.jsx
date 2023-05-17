@@ -28,14 +28,14 @@ export default function Header() {
                 <img className='md:hidden h-6 w-6' src={menu} alt="" onClick={() => setSideMenu(e => !e)}/>
             </div>
         </header>
-             <div className={`absolute right-0 top-0 bg-white h-screen w-[45%] ease-in-out duration-300 ${sideMenu ? "translate-x-0" : "translate-x-full"} md:hidden`}>
+             <div className={`absolute right-0 top-0 bg-white h-screen ease-in-out duration-300 ${sideMenu ? "w-[45%]" : " w-[0%]"} md:hidden`}>
                  {sideMenu && <div>
                     <div onClick={() => setSideMenu(e => !e)}>
                         <div className='font-bold p-3'>X</div>
                     </div>
 
-                    <div>
-                        <ul className='md:hidden text-black m-auto items-center gap-10 flex flex-col'>
+                    <div className={`md:hidden flex flex-col ease-in duration-500 ${sideMenu ? 'opacity-100' : 'opacity-0'}`}>
+                        <ul className={`md:hidden text-black m-auto items-center gap-10 flex flex-col ease-in duration-500 `}>
                             <li>Home</li>
                             <li>About Us</li>
                             <li>Services</li>

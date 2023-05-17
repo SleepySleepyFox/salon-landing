@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function BookAppointment() {
   return (
-    <div className='container md:flex justify-around md:items-center md:p-6 w-full'>
+    <div className=' md:flex justify-around md:items-center md:p-6 w-full'>
         <div className='mt-16'>
             <div className='p-2 flex flex-col items-center justify-center md:items-start'>
             <h3 className='text-secondary font mt-2'>Book Now</h3>
@@ -12,7 +12,7 @@ export default function BookAppointment() {
             </div>
         </div>
         <div className='flex mt-6 flex-col items-center gap-6'>
-            <div className='md:bg-white md:max-h-[283px] md:max-w-[320px] flex mt-6 flex-col items-center p-10'>
+            <div className='md:bg-white md:h-64 md:w-64 flex mt-6 flex-col items-center p-10'>
                 <div className='h-fit bg-white p-4 rounded-full'>
                     <img src="https://img.icons8.com/ios-filled/50/null/phone.png"/>
                 </div>
