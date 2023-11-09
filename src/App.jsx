@@ -20,7 +20,7 @@ export default function App() {
           <About/>
         </div>
 
-        <div className='h-screen bg-slate-100 md:max-h-[510px] md:bg-bookbg bg-no-repeat'>
+        <div className='h-screen bg-cover bg-slate-100 md:max-h-[510px] md:bg-bookbg bg-no-repeat'>
           <BookAppointment/>
         </div>
 
@@ -32,7 +32,7 @@ export default function App() {
           <Testimonials/>
         </div>
 
-        <div className='hidden md:block md:bg-affiliatebg md:h-[493px] md:bg-no-repeat'>
+        <div className='hidden bg-cover md:block md:bg-affiliatebg md:h-[493px] md:bg-no-repeat'>
           <Affiliate/>
         </div>
         <div>

@@ -14,9 +14,9 @@ export default {
         'paragraph': '#ABABAB'
       },
       backgroundImage: {
-        'hero': "url('./src/assets/jason-dent-itA0ybdIDTs-unsplash.jpg')",
-        'bookbg': "url('./src/assets/BookSection_bg.png')",
-        'affiliatebg': "url('./src/assets/affiliate-bg.png')"
+        'hero': "url('/assets/jason-dent-itA0ybdIDTs-unsplash.jpg')",
+        'bookbg': "url('/assets/BookSection_bg.png')",
+        'affiliatebg': "url('/assets/affiliate-bg.png')"
       },
       borderColor: {
         'secondary': '#FBB034'

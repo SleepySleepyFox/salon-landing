@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import logo from "../assets/salon-logo.svg";
-import menu from "../assets/menu.svg";
+import logo from "/assets/salon-logo.svg";
+import menu from "/assets/menu.svg";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 

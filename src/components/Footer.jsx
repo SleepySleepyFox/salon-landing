@@ -1,9 +1,9 @@
 import React from "react";
-import instagram from "../assets/instagram-icon.svg";
-import facebook from "../assets/facebook-icon.svg";
-import twitter from "../assets/twitter-icon.svg";
-import logo from "../assets/salon-logo.svg";
-import arrow from "../assets/arrow.svg";
+import instagram from "/assets/instagram-icon.svg";
+import facebook from "/assets/facebook-icon.svg";
+import twitter from "/assets/twitter-icon.svg";
+import logo from "/assets/salon-logo.svg";
+import arrow from "/assets/arrow.svg";
 
 export default function Footer() {
   return (

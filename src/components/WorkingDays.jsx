@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../assets/working-days.jpg";
+import hero from "/assets/working-days.jpg";
 
 export default function WorkingDays() {
   return (

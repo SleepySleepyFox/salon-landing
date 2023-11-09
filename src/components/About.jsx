@@ -1,7 +1,7 @@
 import React from "react";
-import about_1 from "../assets/about_1.png";
-import about_2 from "../assets/about_2.png";
-import about_3 from "../assets/about_3.png";
+import about_1 from "/assets/about_1.png";
+import about_2 from "/assets/about_2.png";
+import about_3 from "/assets/about_3.png";
 
 export default function About() {
   return (

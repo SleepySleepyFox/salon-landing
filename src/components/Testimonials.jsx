@@ -1,8 +1,8 @@
 import React from "react";
-import star from "../assets/star.svg";
-import star_blank from "../assets/star_blank.svg";
-import profile1 from "../assets/profile_icon.png";
-import profile2 from "../assets/profile_icon2.png";
+import star from "/assets/star.svg";
+import star_blank from "/assets/star_blank.svg";
+import profile1 from "/assets/profile_icon.png";
+import profile2 from "/assets/profile_icon2.png";
 
 export default function Testimonials() {
   return (
